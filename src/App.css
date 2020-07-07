@@ -1,38 +1,66 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background:linear-gradient( #8ae98f,#1bb323,#098a0f);
+  height:100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #00bb09;
+  height: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  text-align:left;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left:25px;
+
+  box-shadow: 1px 5px 5px #555454;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h4{
+  margin:auto 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-body
+{
+  
+
+ min-height: 100vh;
+}
+.button-section{
+  margin-top:20px;
+  width:100vw;
+  
+}
+ .button-section .addnew{
+   float:left;
+   margin: auto 20px;
+   background:rgb(4, 131, 53);
+   border: 3px solid #08c246;
+   border-radius: 8px;
+   color:white;
+   padding:7px 10px;
+   font-weight: 700;
+   cursor: pointer;
+ }
+
+ .button-section .addnew:hover{
+  
+  border: 3px solid #04531e;
+  
+}
+
+.item-section
+{
+  
+  float:left;
+  clear:left;
+  margin:auto;
+  width:100vw;
+  
+  display: flex;
+  
 }

@@ -1,0 +1,40 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.inputform{
+    width:17rem;
+    height: 108px;
+    background-color: rgb(213, 215, 216);
+    border-radius: 8px;
+    
+    margin-bottom:10px;
+    padding:10px;
+}
+
+
+.input-task
+{
+    width:230px;
+    height:50px;
+    resize: none;
+    margin-bottom:5px;
+}
+.addnew{
+    float: left;
+    margin: auto 20px;
+    background:rgb(4, 131, 53);
+    border: 3px solid #08c246;
+    border-radius: 8px;
+    color:white;
+    padding:7px 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+ 
+.addnew:hover{
+   
+   border: 3px solid #04531e;
+   
+ }

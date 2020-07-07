@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import Item from './components/items/items';
+import AddItem from './components/AddItem/AddItem';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h4>ToDo</h4>
       </header>
+      <div className="todo-body">
+        
+        <div className="item-section">
+          <Item title="To Do" />
+          <Item title="Completed"/>
+          
+        </div>
+       
+       
+      </div>
     </div>
   );
 }
